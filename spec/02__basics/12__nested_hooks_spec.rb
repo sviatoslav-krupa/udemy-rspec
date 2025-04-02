@@ -7,6 +7,9 @@
 #     * after  :context
 #     * after  :suite
 
+# Docs:
+#   * https://rspec.info/features/3-12/rspec-core/hooks/before-and-after-hooks/
+
 describe 'nested hooks' do
   before(:context) do
     puts 'OUTER Before context'
