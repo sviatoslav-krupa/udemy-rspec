@@ -25,9 +25,11 @@ describe Card do
     expect(card.suit).to eq('Spades')
   end
 end
-
 # OUTPUT:
-#   ..
 #
-#   Finished in 0.00224 seconds (files took 0.04425 seconds to load)
+#   Card
+#     has a rank
+#     has a suit
+#
+#   Finished in 0.00063 seconds (files took 0.03372 seconds to load)
 #   2 examples, 0 failures

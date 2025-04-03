@@ -33,15 +33,17 @@ describe 'before and after hooks' do
     expect(3 - 2).to eq(1)
   end
 end
-
 # OUTPUT:
+#
+#   before and after hooks
 #   Before context
 #   Before example
 #   After example
-#   .Before example
+#     is just a random example
+#   Before example
 #   After example
-#   .After context
+#     is just another random example
+#   After context
 #
-#
-#   Finished in 0.00474 seconds (files took 0.05223 seconds to load)
+#   Finished in 0.0006 seconds (files took 0.03308 seconds to load)
 #   2 examples, 0 failures

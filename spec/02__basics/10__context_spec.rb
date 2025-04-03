@@ -16,9 +16,13 @@ describe '#even? method' do
     end
   end
 end
-
 # OUTPUT:
-#   ..
 #
-#   Finished in 0.0022 seconds (files took 0.04676 seconds to load)
+#   even? method
+#     with even number
+#       should return true
+#     with odd number
+#       should return false
+#
+#   Finished in 0.00068 seconds (files took 0.03311 seconds to load)
 #   2 examples, 0 failures

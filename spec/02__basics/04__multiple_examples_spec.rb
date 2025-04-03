@@ -25,7 +25,6 @@ describe 'Card' do
     expect(card.suit).to eq('Spades')
   end
 end
-
 # OUTPUT (without Card class defined):
 #   FF
 #
@@ -54,7 +53,10 @@ end
 #   rspec ./spec/02__basics/04__multiple_examples_spec.rb:20 # Card has a suit
 
 # OUTPUT (with Card class defined):
-#   ..
 #
-#   Finished in 0.00198 seconds (files took 0.04284 seconds to load)
+#   Card
+#     has a rank
+#     has a suit
+#
+#   Finished in 0.00063 seconds (files took 0.03372 seconds to load)
 #   2 examples, 0 failures

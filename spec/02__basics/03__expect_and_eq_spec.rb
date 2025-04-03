@@ -17,7 +17,6 @@ describe 'Card' do
     expect(card.type).to(eq('Ace of Spades'))
   end
 end
-
 # OUTPUT (without Card class defined):
 #   .F
 #
@@ -38,7 +37,9 @@ end
 #   rspec ./spec/02__basics/03__expect_and_eq_spec.rb:2 # Card has a type
 
 # OUTPUT (with Card class defined):
-#   ...
 #
-#   Finished in 0.00257 seconds (files took 0.04797 seconds to load)
-#   3 examples, 0 failures
+#   Card
+#     has a type
+#
+#   Finished in 0.00053 seconds (files took 0.03169 seconds to load)
+#   1 example, 0 failures

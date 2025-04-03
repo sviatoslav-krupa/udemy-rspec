@@ -1,11 +1,11 @@
 # Notes:
 #   * The order:
-#     * before :suite
-#     * before :context
-#     * before :example
-#     * after  :example
-#     * after  :context
-#     * after  :suite
+#     1. before :suite
+#     2. before :context
+#     3. before :example
+#     4. after  :example
+#     5. after  :context
+#     6. after  :suite
 
 # Docs:
 #   * https://rspec.info/features/3-12/rspec-core/hooks/before-and-after-hooks/
@@ -41,16 +41,20 @@ describe 'nested hooks' do
     end
   end
 end
-
 # OUTPUT:
+#
+#   nested hooks
 #   OUTER Before context
 #   OUTER Before example
-#   .INNER Before context
+#     does basic math
+#     with condition A
+#   INNER Before context
 #   OUTER Before example
 #   INNER Before example
-#   .OUTER Before example
+#     does some more basic math
+#   OUTER Before example
 #   INNER Before example
-#   .
+#     does subtraction as well
 #
-#   Finished in 0.0013 seconds (files took 0.03228 seconds to load)
+#   Finished in 0.00068 seconds (files took 0.0332 seconds to load)
 #   3 examples, 0 failures

@@ -25,9 +25,12 @@ describe ProgrammingLanguage do
     end
   end
 end
-
 # OUTPUT:
-#   ..
 #
-#     Finished in 0.00773 seconds (files took 0.04678 seconds to load)
+#   ProgrammingLanguage
+#     should store the name of the language
+#     with no argument
+#       should default to Ruby as the name
+#
+#   Finished in 0.0006 seconds (files took 0.03286 seconds to load)
 #   2 examples, 0 failures
