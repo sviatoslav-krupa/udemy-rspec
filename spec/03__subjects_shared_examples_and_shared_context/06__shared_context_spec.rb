@@ -1,7 +1,7 @@
 # Notes:
 #   * Shared context is used to share common setup code across multiple example groups
 #   * We can include shared context in our example groups using `include_context`
-#   * We can define hooks, helper methods, and let variables in shared context
+#   * We can define hooks, instance variable, helper methods, and let variables in shared context
 
 shared_context 'common' do
   before do
