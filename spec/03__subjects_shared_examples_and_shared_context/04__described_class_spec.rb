@@ -15,7 +15,7 @@ describe Prince do
 
   it 'represents a great person' do
     expect(subject.name).to eq('Boris')
-    expect(louis.name).to eq('Louis')
+    expect(louis.name).to   eq('Louis')
   end
 end
 # OUTPUT:

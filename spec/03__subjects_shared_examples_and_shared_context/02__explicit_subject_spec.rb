@@ -13,19 +13,19 @@ describe Hash do
 
   it 'has two key-value pairs' do
     expect(subject.length).to eq(2)
-    expect(bob.length).to eq(2)
+    expect(bob.length).to     eq(2)
 
     subject[:c] = 3
     bob[:d] = 4
 
     expect(subject.length).to eq(4)
-    expect(bob.length).to eq(4)
+    expect(bob.length).to     eq(4)
   end
 
   describe 'nexted example' do
     it 'has two key-value pairs' do
       expect(subject.length).to eq(2)
-      expect(bob.length).to eq(2)
+      expect(bob.length).to     eq(2)
     end
   end
 end
