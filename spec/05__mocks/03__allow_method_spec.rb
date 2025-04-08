@@ -1,6 +1,3 @@
-# Notes:
-#   *
-
 # Docs:
 #   * https://rspec.info/features/3-12/rspec-mocks/basics/allowing-messages/
 
