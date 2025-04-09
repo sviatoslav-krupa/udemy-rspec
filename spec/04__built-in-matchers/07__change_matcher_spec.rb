@@ -8,7 +8,7 @@ describe 'change matcher' do
   subject { [1, 2, 3] }
 
   it 'checks that a method changes object state' do
-    # Or `expect { subject.pop }.to change { subject.length }.from(3).to(4)`
+    # Or `expect { subject.push(4) }.to change { subject.length }.from(3).to(4)`
     expect { subject.push(4) }.to change { subject.length }.by(1)
   end
 

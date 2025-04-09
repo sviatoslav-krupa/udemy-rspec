@@ -22,7 +22,7 @@ describe Card do
     # This is another instance of Card
     card.rank = 'Queen'
 
-    # This is one more another instance of Card
+    # This is one more instance of Card
     expect(card.rank).to eq('Queen')
   end
 

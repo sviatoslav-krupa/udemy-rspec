@@ -31,6 +31,10 @@ describe Person do
       # `person = instance_double(Person, a: 'Hello', b: 20)` raises an error cause `b` is not defined on `Person`
       person = instance_double(Person)
       allow(person).to receive(:a).with(3).and_return("Hello")
+
+      # This also raises an error cause `b` is not defined on `Person`
+      # allow(person).to receive(:b).and_return("This will cause an error")
+
       expect(person.a(3)).to eq("Hello")
     end
   end
